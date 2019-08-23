@@ -12,4 +12,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cube"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_sphere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sphere"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_cylinder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cylinder"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
 </RelativeLayout>
